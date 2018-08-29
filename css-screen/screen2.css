@@ -1,0 +1,37 @@
+*,
+html {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+/*---Head---*/
+.sign_in {
+    background-color: #823038;
+    color: white;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.head_line {
+    margin-top: 0.5em;
+    border: 2px solid #823038;
+}
+
+/*---Main content---*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    background-color: #AEAEAE;
+    border: none;
+    border-radius: 5px;
+}
+label {
+    margin-bottom: 5em;
+}
