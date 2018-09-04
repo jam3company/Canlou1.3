@@ -5,7 +5,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 95%;
+    height: 30em;
+    width: 60%;
 }
 
 .cp-1,
