@@ -11,28 +11,7 @@
 </head>
 <body>
     <main>
-            <div id="map" style="width:100%;height:30em;background:yellow"></div>
-            <script>
-            function myMap() {
-            var mapOptions = {
-                center: new google.maps.LatLng(51.5, -0.12),
-                zoom: 10,
-                mapTypeId: google.maps.MapTypeId.HYBRID
-            }
-            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-            }
-            var marker = new google.maps.Marker({
-                position: {lat: 40.0519752, lng: -76.314270999999}, // lat/long of marker
-                map: map,
-                animation: google.maps.Animation.DROP, // drops marker in from top
-                title: 'MIND Deveopment and Design', // title on hover over marker
-                icon: {
-                    scaledSize: new google.maps.Size(75, 120)
-                }
-});
-            </script>
-
-            <script src="https://maps.googleapis.com/maps/api/js?&callback=myMap"></script>
+        <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GAVlEBmdosdK16CH4AUfACxvNyj2sXHI" width="100%" height="95%"></iframe>
     </main>
     <footer>
             <div class="footer">
