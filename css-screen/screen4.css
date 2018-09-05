@@ -1,0 +1,82 @@
+
+*,
+html {
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+.head {
+    height: 50px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.profile_logo {
+    height: 30px;
+}
+
+.search_div {
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+    border: 2px solid #aeaeae;
+    border-radius: 3px;
+}
+.search_icon {
+    height: 20px;
+}
+
+.album {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.store {
+    height: 120px;
+    width: 120px;
+    margin-right: 5px;
+}
+
+.creative {
+    color: #823038;
+    margin: 20px;
+    font-size: 30px;
+}
+
+
+.main_nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_items {
+    height: 30px;
+    text-align: center;
+}
+
+.go {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #aeaeae;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+}
+  
+footer {
+    background-color: rgb(54, 54, 54);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }

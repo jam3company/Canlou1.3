@@ -27,10 +27,8 @@ a {
     text-align: center;
 }
 
-
-
 .go {
-    width: 30%;
+    width: 25%;
     display: flex;
     justify-content: center;
     border: 2px solid #aeaeae;
