@@ -1,0 +1,78 @@
+[debug] [2018-09-05T19:46:25.937Z] ----------------------------------------------------------------------
+[debug] [2018-09-05T19:46:25.939Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2018-09-05T19:46:25.939Z] CLI Version:   4.2.1
+[debug] [2018-09-05T19:46:25.939Z] Platform:      darwin
+[debug] [2018-09-05T19:46:25.939Z] Node Version:  v8.11.4
+[debug] [2018-09-05T19:46:25.940Z] Time:          Wed Sep 05 2018 20:46:25 GMT+0100 (WEST)
+[debug] [2018-09-05T19:46:25.940Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-05T19:46:25.952Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-09-05T19:46:25.952Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/marianaranjoalmeida/Desktop/Documentos importantes/JAM3/Canlou/Canlou-1.3
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2018-09-05T20:09:41.476Z] ----------------------------------------------------------------------
+[debug] [2018-09-05T20:09:41.478Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2018-09-05T20:09:41.478Z] CLI Version:   4.2.1
+[debug] [2018-09-05T20:09:41.478Z] Platform:      darwin
+[debug] [2018-09-05T20:09:41.478Z] Node Version:  v8.11.4
+[debug] [2018-09-05T20:09:41.479Z] Time:          Wed Sep 05 2018 21:09:41 GMT+0100 (WEST)
+[debug] [2018-09-05T20:09:41.479Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-05T20:09:41.486Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-09-05T20:09:41.487Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/marianaranjoalmeida/Desktop/Documentos importantes/JAM3/Canlou/Canlou-1.3
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2018-09-05T20:10:13.723Z] ----------------------------------------------------------------------
+[debug] [2018-09-05T20:10:13.725Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-09-05T20:10:13.725Z] CLI Version:   4.2.1
+[debug] [2018-09-05T20:10:13.725Z] Platform:      darwin
+[debug] [2018-09-05T20:10:13.725Z] Node Version:  v8.11.4
+[debug] [2018-09-05T20:10:13.726Z] Time:          Wed Sep 05 2018 21:10:13 GMT+0100 (WEST)
+[debug] [2018-09-05T20:10:13.726Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-05T20:10:13.734Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-05T20:10:13.734Z] > authorizing via signed-in user
+[debug] [2018-09-05T20:10:13.736Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-05T20:10:13.736Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-09-05T20:10:14.196Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-05T20:10:14.215Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/canlou1-3  
+ 
+[debug] [2018-09-05T20:10:15.173Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-05T20:10:15.174Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/canlou1-3  
+ 
+[debug] [2018-09-05T20:10:16.332Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/marianaranjoalmeida/Desktop/Documentos importantes/JAM3/Canlou/Canlou-1.3'...
+[info] 
+[debug] [2018-09-05T20:10:16.334Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/593714763504/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-05T20:10:16.910Z] <<< HTTP RESPONSE 200
+[info] i  hosting[canlou1-3]: Serving hosting files from: Y
+[info] ✔  hosting[canlou1-3]: Local server: http://localhost:5000
