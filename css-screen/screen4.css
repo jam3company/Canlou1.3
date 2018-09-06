@@ -51,6 +51,11 @@ html {
 }
 
 
+/* footer style */
+
+a {
+    text-align: center;
+}
 .main_nav {
     display: flex;
     justify-content: space-around;
@@ -74,7 +79,7 @@ body {
 }
   
 footer {
-    background-color: rgb(54, 54, 54);
+    background-color: white;
     position: absolute;
     bottom: 0;
     width: 100%;
