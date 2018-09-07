@@ -7,7 +7,6 @@ html {
 /*---Head---*/
 .head {
     height: 50px;
-    width: 320px;
     display: flex;
     justify-content: flex-start;
     margin: 49px 0 40px 38px;
@@ -24,7 +23,7 @@ p {
     text-align: center;
 }
 .recycle-pictures img{
-    height: 15em;
+    height: 10em;
     width: auto;
     margin-bottom: 0.5em;
     margin-right: 0.3em;
