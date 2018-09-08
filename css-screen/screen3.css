@@ -21,6 +21,8 @@ p {
 }
 .recycle-pictures {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .recycle-pictures img{
     height: 10em;
@@ -63,3 +65,44 @@ footer {
     width: 100%;
     height: 40px;
   }
+
+/* recycle hovers */
+
+.recycle-item {
+    position: relative;
+}
+
+.color_overlay_yellow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+    opacity: 0;
+}
+
+.color_overlay_blue {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    opacity: 0;
+}
+
+.color_overlay_green {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    opacity: 0;
+}
+.color_overlay_yellow:hover,
+.color_overlay_blue:hover,
+.color_overlay_green:hover {
+    opacity: 0.3;
+}
