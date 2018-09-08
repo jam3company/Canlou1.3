@@ -19,17 +19,21 @@ html {
 p {
     text-align: center;
 }
-.recycle-pictures {
+/* .recycle-pictures {
     text-align: center;
     flex-direction: column;
-}
+} */
 .recycle-pictures img{
     height: 10em;
     width: auto;
     margin-bottom: 0.5em;
     margin-right: 0.3em;
 }
-
+.scroll {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
 /*---Footer---*/
 a {
     text-align: center;
@@ -67,7 +71,7 @@ footer {
 
 /* recycle hovers */
 
-.recycle-item {
+/* .recycle-item {
     position: relative;
 }
 
@@ -104,4 +108,4 @@ footer {
 .color_overlay_blue:hover,
 .color_overlay_green:hover {
     opacity: 0.3;
-}
+} */
