@@ -21,7 +21,6 @@ p {
 }
 .recycle-pictures {
     text-align: center;
-    display: flex;
     flex-direction: column;
 }
 .recycle-pictures img{
