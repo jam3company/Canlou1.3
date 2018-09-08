@@ -11,17 +11,15 @@ html {
 
 .head {
     height: 50px;
-    width: 320px;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 40px 0;
+    justify-content: flex-start;
+    margin: 40px 0 40px 38px;
 }
 .profile_logo {
     height: 30px;
 }
 
-.search_div {
+/* .search_div {
     display: flex;
     align-items: center;
     padding: 3px 20px;
@@ -30,7 +28,7 @@ html {
 }
 .search_icon {
     height: 20px;
-}
+} */
 
 .creative {
     color: #823038;

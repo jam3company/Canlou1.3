@@ -9,13 +9,22 @@ html {
     position: relative;
 }
 
+.head {
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0 40px 38px;
+}
+.profile_logo {
+    height: 30px;
+}
 
 main {
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30em;
+    /* height: 30em; */
     width: 60%;
     margin: auto;
 }
@@ -24,10 +33,10 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 
-html {
+/* html {
     min-height: 100%;
     position: relative;
-}
+} */
 
 img {
     height: 3em;
@@ -41,10 +50,15 @@ img {
 .cp-1,
 .cp-2,
 .cp-3 {
-    border: 2px solid #823038;
-    padding: 1em;
-    width: 100px;
+    /* padding: 1em;
+    width: 100px; */
     text-align: center;
+}
+.cp-1 img,
+.cp-2 img, 
+.cp-3 img {
+    width: 100%;
+    height: auto;
 }
 
 /* footer style */
@@ -97,7 +111,7 @@ body {
   
 footer {
     background-color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 40px;
