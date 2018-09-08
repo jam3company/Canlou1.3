@@ -16,3 +16,32 @@ p {
     width: 100%;
     text-align: center;
 }
+
+/*---Footer---*/
+a {
+    text-align: center;
+}
+.main_nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_items {
+    height: 30px;
+    text-align: center;
+}
+
+.go {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #aeaeae;
+}
+footer {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
