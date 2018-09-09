@@ -9,6 +9,8 @@ html {
     position: relative;
 }
 
+/*---Head---*/
+
 .head {
     height: 50px;
     display: flex;
@@ -24,6 +26,8 @@ html {
     font-size: 30px;
     margin-top: 0;
 }
+
+/*---Main content---*/
 
 main {
     display:flex;
@@ -49,7 +53,8 @@ img {
 }
 
 .cp-1,
-.cp-2 {
+.cp-2,
+.cp-3 {
     margin-bottom: 4em;
 }
 
@@ -67,6 +72,43 @@ img {
     height: auto;
 }
 
+.ticket {
+    position: relative;
+    font-size: 0.8em;
+}
+
+.coupon_overlay {
+    position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+    left: 0;
+    /* margin: 0 4px 0 58px; */
+    background-color: gray;
+    opacity: 0;
+    text-align: center;
+}
+
+.coupon_overlay:hover {
+    opacity: 0.8;
+}
+
+.lock_info ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* .lock_info ul li {
+    margin-top: 14px;
+} */
+
+.coupon_overlay img {
+    margin-top: 5px;
+    width: 1.3em;
+}
+.coupon_overlay p{
+    margin: 0;
+}
 /* footer style */
 
 a {
