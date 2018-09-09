@@ -12,11 +12,17 @@ html {
 .head {
     height: 50px;
     display: flex;
-    justify-content: flex-start;
-    margin: 40px 0 40px 38px;
+    justify-content: space-around;
+    margin: 40px 0 40px 0px;
 }
 .profile_logo {
     height: 30px;
+}
+
+.creative {
+    color: #823038;
+    font-size: 30px;
+    margin-top: 0;
 }
 
 .reuse p {
@@ -35,18 +41,14 @@ html {
     height: 20px;
 } */
 
-.creative {
-    color: #823038;
-    margin: 20px;
-    font-size: 30px;
-}
+
 
 .album {
     margin: 30px 0;
 }
 
 h2 {
- margin-left: 20px;
+    margin-left: 20px;
 }
 .initial_margin {
     margin-left: 20px;

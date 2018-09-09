@@ -12,11 +12,17 @@ html {
 .head {
     height: 50px;
     display: flex;
-    justify-content: flex-start;
-    margin: 40px 0 40px 38px;
+    justify-content: space-around;
+    margin: 40px 0 40px 0px;
 }
 .profile_logo {
     height: 30px;
+}
+
+.title {
+    color: #823038;
+    font-size: 30px;
+    margin-top: 0;
 }
 
 main {
