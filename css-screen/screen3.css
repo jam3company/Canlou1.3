@@ -3,8 +3,13 @@ html {
     font-family: 'Quicksand', sans-serif;
 
 }
+body {
+    margin-left: 1em;
+    margin-right: 1em;
+}
 
 /*---Head---*/
+
 .head {
     height: 50px;
     display: flex;
@@ -18,10 +23,10 @@ html {
 h2 {
     margin-left: 20px;
 }
-
 /*---Main content---*/
 p {
     text-align: center;
+    margin: 0 0.5em;
 }
 /* .recycle-pictures {
     text-align: center;
@@ -77,10 +82,7 @@ footer {
     height: 40px;
   }
 
-  body {
-    margin: 0;
-    margin-bottom: 40px;
-}
+
 
 /* recycle hovers */
 
