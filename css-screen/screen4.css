@@ -19,6 +19,11 @@ html {
     height: 30px;
 }
 
+.reuse p {
+    margin: 0 2em;
+
+}
+
 /* .search_div {
     display: flex;
     align-items: center;
